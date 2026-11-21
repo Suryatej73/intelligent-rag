@@ -1,0 +1,24 @@
+# Secrets & Environment Variables
+.env
+.env.*
+!.env.example
+
+# Python Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Vector Store Index Files (Uncomment if you want to rebuild on every deploy)
+# vector_db/faiss_index/
+# *.index
+# *.pkl
+
+# Outputs & Temporary Files
+outputs/*.csv
+outputs/*.xlsx
+.DS_Store
+.idea/
+.vscode/

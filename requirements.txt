@@ -1,0 +1,22 @@
+# Core Framework & LLM
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-groq>=0.2.0
+langchain-huggingface>=0.1.0
+langsmith>=0.1.0
+
+# Vector Store & Embeddings
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+torch>=2.0.0
+
+# Document Processing & Security
+pypdf>=5.0.0
+cryptography>=42.0.0
+python-dotenv>=1.0.0
+
+# UI & Data Handling
+streamlit>=1.35.0
+pandas>=2.0.0
+openpyxl>=3.1.0
